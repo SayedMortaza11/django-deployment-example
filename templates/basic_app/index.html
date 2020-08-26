@@ -1,0 +1,9 @@
+<!DOCTYPE html>
+{% load template_tags %}
+{% extends "basic_app/base.html"%}
+{% block body-block%}
+    <h1>Index Page</h1>
+    <p>thi sis th index page</p>
+  <h1> {{ text|cut:"o"}}</h1>
+  <h2>{{number|add:'kk'}}</h2>
+{% endblock%}
